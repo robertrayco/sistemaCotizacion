@@ -25,7 +25,7 @@ public class Products {
 
     @ManyToOne
     @JoinColumn(name="idTipoMaterial", nullable = false)
-    private TipoMaterial tipoMaterial;
+    private MaterialType materialType;
 
     @ManyToOne
     @JoinColumn(name="idColor", nullable = false)
